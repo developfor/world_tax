@@ -1,0 +1,65 @@
+[
+  {
+    "economy":"East Asia & Pacific",
+    "payments_per_year":25,
+    "time_hours_per_year":208,
+    "profit_tax":16.4,
+    "labor_tax_contributions":10.7,
+    "other_taxes":7.4,
+    "total_tax_rate":34.5
+  },
+  {
+    "economy":"Europe & Central Asia",
+    "payments_per_year":26,
+    "time_hours_per_year":246,
+    "profit_tax":9,
+    "labor_tax_contributions":22.6,
+    "other_taxes":7,
+    "total_tax_rate":38.7
+  },
+  {
+    "economy":"Latin America & Caribbean",
+    "payments_per_year":30,
+    "time_hours_per_year":369,
+    "profit_tax":20.5,
+    "labor_tax_contributions":14.7,
+    "other_taxes":12.1,
+    "total_tax_rate":47.3
+  },
+  {
+    "economy":"Middle East & North Africa",
+    "payments_per_year":18,
+    "time_hours_per_year":220,
+    "profit_tax":12.4,
+    "labor_tax_contributions":16.3,
+    "other_taxes":3.6,
+    "total_tax_rate":32.3
+  },
+    {
+    "economy":"OECD high income",
+    "payments_per_year":12,
+    "time_hours_per_year":175,
+    "profit_tax":16.1,
+    "labor_tax_contributions":23.1,
+    "other_taxes":2,
+    "total_tax_rate":41.3
+  },
+  {
+    "economy":"South Asia",
+    "payments_per_year":33,
+    "time_hours_per_year":328,
+    "profit_tax":16.8,
+    "labor_tax_contributions":9,
+    "other_taxes":14.8,
+    "total_tax_rate":40.6
+  },
+  {
+    "economy":"Sub Saharan Africa",
+    "payments_per_year":38,
+    "time_hours_per_year":314,
+    "profit_tax":18.4,
+    "labor_tax_contributions":13.7,
+    "other_taxes":21.3,
+    "total_tax_rate":53.3
+  }
+]

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/data_table.css">
+
+
+	<link type="text/plain" rel="author" href="humans.txt" />
+
+	<title>Global Business Tax</title>
+
+</head>
+
+<body>
+
+	<div class ="wrapper">
+
+		<h1 class = "title">Global Taxes for Medium Sized Companies</h1>
+
+		<div class="block-instructions">
+			<div id="block-instructions-toggle">
+
+				<h2>The Doing Business Report is a study from the World Bank Group.  The data for these visualisations is from Paying Taxes and looks a the taxes and mandatory contributions a medium-sized company but pay or withhold in a given year.</h2>
+
+				<h2>This visualisation looks at 7 regions for the following tax infomation: </h2>
+				<ul>
+					<li>Payments - number of payments per year</li>
+					<li>Time - number of hours per year spent completing taxes for the company</li>
+					<li>Total Tax Rate - % of profit</li>
+				</ul>
+
+				<h2> OECD is the Organistion for Economic Co-operation and Development and is a group of 34 countries.  The Doing Business Fact Sheet lists 21 of these contries as High-Income Economies.  According to the Doing Business factsheet the OECD High-Income Economies in these visualisations are:</h2>
+
+				<h2 class = "oecd_economies">Australia, Austria, Belgium, Canada, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Japan, Republic of Korea, Luxembourg, The Netherlands, New Zealand, Norway, Poland, Portugal, Slovak Republic, Slovenia, Spain, Sweden, Switzerland, United Kingdom, United States.</h2>
+
+				<h2>This data coverers for the Paying Taxes indicator calendar year 2012:
+					January 1, 2012 – December 31, 2012</h2>
+
+
+					<div class = 'source'>
+						<h3>sources: 
+							<a href="http://www.doingbusiness.org/data/exploretopics/paying-taxes#sub-menu-item-link">Doing Busniness</a>
+							<a href="http://www.doingbusiness.org/press/fact-sheets/2011/oecd">OECD High-Income Economies</a>
+							<a href="http://en.wikipedia.org/wiki/Organisation_for_Economic_Co-operation_and_Development">Wikipedia - OECD</a>
+						</h3>
+					</div>
+				</div>
+			</div>
+
+		<div class="info-text-instructions">
+			<div id="toggle-instructions">hide introduction</div>
+		</div>
+
+
+		<div id = "main_graphics">
+			<div id = "display"></div>
+			<div id = "viz">
+				<h1>Total Tax Rate</h1>
+
+			</div>
+
+			<div id = "viz2">
+				<h1>Payments per Year</h1>
+				
+
+			</div>
+
+			<div id = "viz3">
+				<h1>Hours per Year</h1>
+
+			</div>
+
+		</div>
+
+		<div id = "block-table">
+			<div id = "datatable-wrapper">
+				<table id = "table-id">
+					<thead>
+						<tr>
+							<th id = "table-mag">Economy</th>
+							<th>Payments per Year</th>
+							<th>Hours per Year</th>
+							<th>Total Tax</th>
+						</tr>
+					</thead>
+					<!-- The table body is created in javascript in the table.js file and uses
+					datatables.js -->
+					<tbody id = "table-body-id">
+
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+		<script src = "js/vendor/d3.v3.min.js"></script>
+		<script src = "js/vendor/jquery-1.10.2.min.js"></script>
+
+
+		<script src = "js/pie_programme.js"></script>
+		<script src = "js/bar_programme.js"></script>
+		<script src = "js/instructions.js"></script> 
+		<script src = "js/table.js"></script>
+		<script src = "js/main.js"></script>
+</body>
+</html>
